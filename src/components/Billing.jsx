@@ -14,7 +14,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo} style={{marginLeft: '90px'}} >
       <h2 className={styles.heading2}>
-        Streamline all <br className="sm:block hidden" /> your Business Needs
+        Streamline All <br className="sm:block hidden" /> Your Business Needs
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With the help of AI, let us customize your webpage functionality. Modernize they way you communicate, collect customer data, marketing, accept and make payments. 
