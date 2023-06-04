@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+ 
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Web Development",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Unlock the potential of your online presence with exceptional web design and development that captivates, engages, and converts your audience like never before.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Advanced Security Protocols",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Experience peace of mind with our state-of-the-art security protocols, ensuring your online presence is safeguarded with the highest level of protection.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "AI-infused applications",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Unlock the limitless potential of advanced AI-infused applications and revolutionize the way you work, innovate, and thrive in the digital age.",
   },
 ];
 
@@ -47,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Partnering AInnovations was the best decision I made for my business. Your team's creativity, technical proficiency, and unwavering commitment to delivering timely results have made me a truly satisfied customer. Thank you!",
+    name: "Cheryl Huang",
+    title: "CTO Radar Inc",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Working with your team has been an absolute pleasure! Their professionalism, expertise, and attention to detail have exceeded my expectations. I couldn't be happier with the results.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Founder Sync",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "I am so glad I chose AInnovations for my project. Your team's dedication, prompt communication, and exceptional skills have made the entire process smooth and enjoyable. I'm thrilled with the final website!",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "CEO Whilst",
     img: people03,
   },
 ];
@@ -73,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Web Pages",
+    value: "1200+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "65+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "E-Transactions",
+    value: "$83M+",
   },
 ];
 
@@ -155,11 +170,11 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
+  // {
+  //   id: "social-media-1",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/",
+  // },
   {
     id: "social-media-2",
     icon: facebook,
