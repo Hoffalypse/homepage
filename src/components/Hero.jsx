@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot, word } from "../assets";
+import {robot, word } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
