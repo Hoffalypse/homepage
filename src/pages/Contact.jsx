@@ -57,7 +57,7 @@ const Contact = () => {
     <div className="bg-black  overflow-hidden">
       <div>
         <div className="flex justify-center mt-[25px]">
-          <img src={blue} className="w-[250px]" />
+          <a href="./"><img src={blue} className="w-[250px]" /></a>
         </div>
 
         <p
