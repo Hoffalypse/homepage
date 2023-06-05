@@ -28,7 +28,7 @@ const Business = () =>  (
       We work with our clients to develop marketing strategies and campaigns that meet their business goals.
       </p>
 
-      <Button styles={`mt-10`} />
+      <a href='./contact'><Button styles={`mt-10`}/></a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
