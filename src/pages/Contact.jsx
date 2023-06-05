@@ -111,7 +111,7 @@ const Contact = () => {
                     name="message"
                     value={form.message}
                     onChange={handleChange}
-                    placeholder="What can we help your business?"
+                    placeholder="What can we do to help your business?"
                     className="bg-tertiary py-4 px-3 placeholder:text-secondary bg-slate-500 text-white rounded-lg outlined-none border-none font-medium"
                   />
                 </label>
