@@ -57,9 +57,11 @@ const Contact = () => {
     <div className="bg-black  overflow-hidden">
       <div>
         <div className="flex justify-center mt-[25px]">
-          <a href="./"><img src={blue} className="w-[250px]" /></a>
+          <a href="./">
+            <img src={blue} className="w-[250px]" />
+          </a>
         </div>
-
+      <div className="ml-[60px]">
         <p
           className={`sm:text-[18px] text-[14px] blue uppercase tracking-wider`}
         >
@@ -70,6 +72,7 @@ const Contact = () => {
         >
           Contact
         </h3>
+        </div>
         <Container>
           <Row>
             <Col xs={6}>
@@ -116,22 +119,21 @@ const Contact = () => {
                   />
                 </label>
                 <div className="flex justify-center">
-                <button
-                  type="submit"
-                  className=" send "
-                >
-                   
-                  {loading ? "Sending..." : "Send"}
-                </button>
+                  <button type="submit" className=" send ">
+                    {loading ? "Sending..." : "Send"}
+                  </button>
                 </div>
               </form>
             </Col>
             <Col>
-              <img src={earth} alt="earth at night" className="w-[800px] mt-40 ml-24"/>
+              <img
+                src={earth}
+                alt="earth at night"
+                className="w-[800px] mt-40 ml-24"
+              />
             </Col>
           </Row>
         </Container>
-        
       </div>
     </div>
   );
